@@ -239,6 +239,9 @@ def parse_custom_markdown(markdown_text):
             continue
 
         # === SYNTAXE CLASSIQUE ===
+        line = re.sub(r"^###### (.+)$", r'<h6 class="text-xl font-semibold mt-4">\1</h6>', line)
+        line = re.sub(r"^##### (.+)$", r'<h5 class="text-xl font-semibold mt-4">\1</h5>', line)
+        line = re.sub(r"^#### (.+)$", r'<h4 class="text-xl font-semibold mt-4">\1</h4>', line)
         line = re.sub(r"^### (.+)$", r'<h3 class="text-xl font-semibold mt-4">\1</h3>', line)
         line = re.sub(r"^## (.+)$", r'<h2 class="text-2xl font-bold mt-6">\1</h2>', line)
         line = re.sub(r"^# (.+)$", r'<h1 class="text-3xl font-extrabold mt-8">\1</h1>', line)
