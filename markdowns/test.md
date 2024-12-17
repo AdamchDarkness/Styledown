@@ -1,6 +1,3 @@
+# Nouveau fichier Markdown
 
-| dhrh  | rhfh    | hreh   |
-|-------|---------|--------|
-| test  | hjfio   | fjeiwj |
-
-[icon=home] [icon=star] [icon=user]
+Commencez à écrire ici...
