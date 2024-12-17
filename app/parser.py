@@ -157,7 +157,7 @@ def show_help():
       edit <nom-du-fichier>            Ouvrir un fichier Markdown dans l'éditeur par défaut.
       export <nom-du-fichier>          Exporter un fichier Markdown en fichier HTML.
       preview <nom-du-fichier>         Prévisualiser un fichier Markdown dans le navigateur.
-      generate-help                    Générer un fichier HELP.md contenant les commandes disponibles.
+      syntaxe                          Syntaxe pour un fihcier markedown.
       help                             Afficher cette aide.
 
     Exemples :
