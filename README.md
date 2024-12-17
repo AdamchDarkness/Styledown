@@ -19,3 +19,13 @@ python cli.py preview name.md
 ```
 python cli.py list
 ```
+
+### Help
+```
+python cli.py help
+```
+
+###  Syntaxe
+```
+python cli.py syntaxe
+```
