@@ -10,6 +10,7 @@ def main():
         print("  python cli.py create <nom-du-fichier>")
         print("  python cli.py delete <nom-du-fichier>")
         print("  python cli.py list")
+        print("  python cli.py syntaxe")
         print("  python cli.py rename <ancien-nom> <nouveau-nom>")
         print("  python cli.py edit <nom-du-fichier>")
         print("  python cli.py export <nom-du-fichier>")
@@ -25,7 +26,7 @@ def main():
             print("Veuillez fournir un nom de fichier.")
         else:
             create_markdown(sys.argv[2])
-    elif command == "help-markdown":
+    elif command == "syntaxe":
         show_markdown_help()
     elif command == "help":
         show_help()
